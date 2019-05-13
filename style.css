@@ -15,6 +15,7 @@ body {
 
 header, footer {
     background-color: #909090;
+    width: 100%;
 }
 
 nav ul {
@@ -72,14 +73,17 @@ footer {
     position: fixed;
     bottom: 0;
     right: 0;
+    height: 40px;
+    padding-top: 5px;
 }
 
 footer nav a {
     display: inline-block;
     text-decoration: none;
+    font-size: 14px;
     color: white;
     width: max-content;
-    padding: 5px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 footer nav a:hover {
@@ -92,4 +96,14 @@ footer span {
 
 .hesder {
     color: red;
+}
+
+footer nav {
+    position: relative;
+}
+
+.fb-icon {
+    position: absolute;
+    bottom: -2;
+    right: -25px;
 }
