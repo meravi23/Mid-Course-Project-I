@@ -57,3 +57,8 @@ nav .home-img {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+nav a:hover, nav button:hover {
+    color: #635CA0;
+    text-decoration: underline;
+}
