@@ -86,7 +86,7 @@ header {
     height: 350px;
     margin: 30px 5px 30px 5px;
     border-radius: 0px 0px 20px 0px;
-    background-color: #ddd; 
+    background-color: #ddd;
 }
 
 .bottom-row {
@@ -96,7 +96,7 @@ header {
     margin: 30px 5px 30px 5px;
     padding: 0px 20px;
     border-radius: 0px 20px 0px 0px;
-    background-color: #ddd; 
+    background-color: #ddd;
 }
 
 .top-row::after, .bottom-row::after {
@@ -105,19 +105,18 @@ header {
     display: table;
 }
 
-.bottom-row > p {
+.bottom-row>p {
     font-weight: bold;
     font-size: 14px;
     text-align: right;
 }
 
-.bottom-row > hr {
-    color: #ddd;
+.bottom-row>hr {
+    color: #aaa;
     margin-top: -5px;
-    border-width: 2px;
 }
 
-.bottom-row > img {
+.bottom-row>img {
     width: 99%;
 }
 
@@ -126,16 +125,31 @@ header {
     margin: 0px 160px 40px 0px;
 }
 
-div > .a-details {
+.bottom-row a {
     font-size: 12px;
+}
+
+.bottom-row>.a-details {
     text-align: left;
 }
 
+.bottom-row>a-areas {
+    text-align: right;
+}
 
+.map-div {
+    position: relative;
+}
 
-
+.a-areas {
+    position: absolute;
+    top: 35px;
+    right: 20;
+    line-height: 20px;
+}
 
 /************** footer ****************/
+
 .footer-container {
     position: relative;
 }
