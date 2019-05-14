@@ -89,6 +89,53 @@ header a:hover, .dropdown:hover {
 
 /**************** main ****************/
 
+main>.flex {
+    display: flex;
+    margin-top: 100px;
+}
+
+.top-nav {
+    font-size: 12px;
+    height: 100px;
+    width: 760px;
+    margin-right: 140px;
+    display: inline-block;
+}
+
+main nav {
+    width: 120px;
+    height: 425px;
+    background-color: #e79292;
+}
+
+form, .top, .bottom {
+    border-top-right-radius: 20px;
+}
+
+main form {
+    width: 440px;
+    height: 425px;
+    background-color: #e79292;
+    margin: 0px 20px 0px 50px;
+}
+
+main left {
+    width: 220px;
+    height: 500px;
+    background-color: #e79292;
+    z-index: 1;
+}
+
+.top, .bottom {
+    height: 175px;
+    width: 290px;
+    background-color: #EFEFEF;
+    border-top-right-radius: 20px;
+}
+
+.top {
+    margin-bottom: 50px;
+}
 
 /************** footer ****************/
 
