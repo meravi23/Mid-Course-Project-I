@@ -89,22 +89,20 @@ header a:hover, .dropdown:hover {
 
 /**************** main ****************/
 
-.top-row {
+.top-row-img {
+    position: relative;
     float: right;
-    width: 270px;
-    height: 350px;
-    margin: 30px 5px 30px 5px;
+    width: 293px;
+    height: 355px;
+    margin-top: 30px;
+}
+
+.top-row-img>img {
     border-radius: 0px 0px 20px 0px;
 }
 
-.bottom-row {
-    float: right;
-    width: 270px;
-    height: 200px;
-    margin: 30px 5px 30px 5px;
-    padding: 0px 20px;
-    border-radius: 0px 20px 0px 0px;
-    background-color: #ddd;
+.top-left, .top-middle {
+    margin-right: 10px;
 }
 
 .top-row::after, .bottom-row::after {
@@ -113,35 +111,29 @@ header a:hover, .dropdown:hover {
     display: table;
 }
 
-.top-row-img {
-    position: relative;
-}
-
 .text {
     position: absolute;
-    top: 275px;
-    width: 230px;
-    Height: 100px;
+    top: 250px;
+    width: 248px;
+    Height: 97px;
     padding-right: 10px;
     border-radius: 0px 0px 20px 0px;
-    background-color: #909090;
+    background-color: rgb(148, 147, 147);
     opacity: 0.9;
     color: white;
     font-size: 13px;
     line-height: 13px;
-    overflow: hidden;
 }
 
 .top-row-img h4 {
     font-weight: bold;
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
 .top-row-img p {
     margin: 0px 0px;
-    overflow: hidden;
     max-height: 60px;
 }
 
@@ -152,6 +144,18 @@ header a:hover, .dropdown:hover {
 .read {
     margin-left: 10px;
     text-align: left;
+}
+
+/******* bottom row ********/
+
+.bottom-row {
+    float: right;
+    width: 270px;
+    height: 200px;
+    margin: 30px 5px 30px 5px;
+    padding: 0px 20px;
+    border-radius: 0px 20px 0px 0px;
+    background-color: #ddd;
 }
 
 .right {
