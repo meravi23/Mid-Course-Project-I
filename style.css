@@ -86,7 +86,6 @@ header {
     height: 350px;
     margin: 30px 5px 30px 5px;
     border-radius: 0px 0px 20px 0px;
-    background-color: #ddd;
 }
 
 .bottom-row {
@@ -103,6 +102,35 @@ header {
     content: "";
     clear: both;
     display: table;
+}
+
+.top-row-img {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 275px;
+    width: 230px;
+    Height: 100px;
+    padding-right: 10px;
+    border-radius: 0px 0px 20px 0px;
+    background-color: #909090;
+    opacity: 0.9;
+    color: white;
+    font-size: 12px;
+}
+
+.right {
+    right: 10px;
+}
+
+.middle {
+    right: 290px;
+}
+
+.left {
+    right: 570px;
 }
 
 .bottom-row>p {
