@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #909090;
+    width: 100%;
+}
+
+header {
+    height: 110px;
+}
+
+.search-box {
+    float: left;
+}
+
+.search-box input {
+    border-top-right-radius: 5px;
+    border: 0;
+}
+
+/* .logo {
+    position: absolute;
+    top: 0;
+    left: 900px;
+} */
+
+.navbar {
+    position: absolute;
+    top: 75px;
+}
+
+#icon {
+    width: 20px;
+    height: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+header a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+header a:hover, .dropdown:hover {
+    color: #2733db;
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #909090;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/**************** main ****************/
+
+
+/************** footer ****************/
+
+.footer-container {
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    padding-top: 5px;
+}
+
+footer nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    width: max-content;
+    padding: 10px 0px 0px 0px;
+}
+
+footer nav a:hover {
+    color: #4D63A0;
+}
+
+footer span {
+    color: white;
+}
+
+.hesder {
+    color: red;
+}
+
+footer nav {
+    position: relative;
+}
+
+.fb-icon {
+    position: absolute;
+    bottom: -2;
+    right: -25px;
+}
