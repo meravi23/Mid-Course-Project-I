@@ -119,6 +119,20 @@ header {
     opacity: 0.9;
     color: white;
     font-size: 12px;
+    overflow: hidden;
+}
+
+.top-row-img h4 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.top-row-img p {
+    margin: 0px 0px;
+    overflow: hidden;
+    max-height: 60px;
 }
 
 .right {
