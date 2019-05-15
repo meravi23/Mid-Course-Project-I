@@ -88,10 +88,11 @@ header a {
     position: relative;
 }
 
-header a:hover,
+a:hover,
 .dropdown:hover {
     color: #2733db;
     text-decoration: underline;
+    
 }
 
 .dropdown-content {
