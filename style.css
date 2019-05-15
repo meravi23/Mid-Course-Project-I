@@ -51,7 +51,7 @@ header {
 .logo {
     position: absolute;
     top: -40px;
-    right: -80px;
+    right: -10px;
 }
 
 .navbar {
@@ -60,13 +60,13 @@ header {
     z-index: 2;
     width: 900px;
     justify-content: space-between;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 #icon {
     width: 20px;
     height: 15px;
-    background: url(images/menu_home.png) 10 0;
+    background: url(images/menu_home.png) 0 16;
 }
 
 .flex {
