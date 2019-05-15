@@ -24,13 +24,28 @@ header {
     height: 105px;
 }
 
-.search-box {
-    float: left;
+.search-box>.search-button {
+    position: absolute;
+    top: 19px;
+    left: 0px;
 }
 
 .search-box input {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     border-top-right-radius: 5px;
     border: 0;
+}
+
+.english {
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+
+.english a {
+    font-size: 12px;
 }
 
 .logo {
@@ -142,7 +157,7 @@ main>.container {
 .mid {
     position: absolute;
     top: 0;
-    right: 100px;
+    right: 130px;
     width: 440px;
     height: 426px;
     margin: 5px 0px 5px 50px;
@@ -185,7 +200,7 @@ main form {
 main .left {
     position: absolute;
     top: 50px;
-    right: 500px;
+    right: 480px;
     width: 292px;
     height: 500px;
     z-index: 1;
