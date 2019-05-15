@@ -14,7 +14,8 @@ body {
     margin: auto;
 }
 
-header, footer {
+header,
+footer {
     background-color: #909090;
     width: 100%;
 }
@@ -32,6 +33,7 @@ header {
     border: 0;
 }
 
+
 /* .logo {
     position: absolute;
     top: 0;
@@ -41,6 +43,7 @@ header {
 .navbar {
     position: absolute;
     top: 75px;
+    z-index: 2;
 }
 
 #icon {
@@ -57,7 +60,7 @@ header a {
     font-weight: bold;
     color: white;
     text-align: right;
-    padding: 14px 16px;
+    padding: 5px 5px;
     text-decoration: none;
 }
 
@@ -65,7 +68,12 @@ header a {
     position: relative;
 }
 
-header a:hover, .dropdown:hover {
+.dropdown-content a {
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+header a:hover,
+.dropdown:hover {
     color: #2733db;
     text-decoration: underline;
 }
@@ -87,6 +95,7 @@ header a:hover, .dropdown:hover {
     display: block;
 }
 
+
 /**************** main ****************/
 
 .top-row-img {
@@ -101,11 +110,13 @@ header a:hover, .dropdown:hover {
     border-radius: 0px 0px 20px 0px;
 }
 
-.top-left, .top-middle {
+.top-left,
+.top-middle {
     margin-right: 10px;
 }
 
-.top-row::after, .bottom-row::after {
+.top-row::after,
+.bottom-row::after {
     content: "";
     clear: both;
     display: table;
@@ -145,6 +156,7 @@ header a:hover, .dropdown:hover {
     margin-left: 10px;
     text-align: left;
 }
+
 
 /******* bottom row ********/
 
@@ -212,6 +224,7 @@ header a:hover, .dropdown:hover {
     right: 20;
     line-height: 20px;
 }
+
 
 /************** footer ****************/
 
