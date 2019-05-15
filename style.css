@@ -24,21 +24,35 @@ header {
     height: 110px;
 }
 
-.search-box {
-    float: left;
+.search-box>.search-button {
+    position: absolute;
+    top: 19px;
+    left: 0px;
 }
 
 .search-box input {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     border-top-right-radius: 5px;
     border: 0;
 }
 
-
-/* .logo {
+.english {
     position: absolute;
-    top: 0;
-    left: 900px;
-} */
+    top: 20px;
+    left: 180px;
+}
+
+.english a {
+    font-size: 12px;
+}
+
+.logo {
+    position: absolute;
+    top: -40px;
+    right: -80px;
+}
 
 .navbar {
     position: absolute;
@@ -127,6 +141,7 @@ header a:hover,
     top: 250px;
     width: 248px;
     Height: 97px;
+    margin-right: 5px;
     padding-right: 10px;
     border-radius: 0px 0px 20px 0px;
     background-color: rgb(148, 147, 147);
@@ -134,6 +149,13 @@ header a:hover,
     color: white;
     font-size: 13px;
     line-height: 13px;
+    z-index: 1;
+}
+
+.text .left {
+    position: absolute;
+    top: 250px;
+    left: 300px;
 }
 
 .top-row-img h4 {
@@ -162,24 +184,12 @@ header a:hover,
 
 .bottom-row {
     float: right;
-    width: 270px;
-    height: 200px;
+    width: 292px;
+    height: 216px;
     margin: 30px 5px 30px 5px;
     padding: 0px 20px;
     border-radius: 0px 20px 0px 0px;
     background-color: #ddd;
-}
-
-.right {
-    right: 10px;
-}
-
-.middle {
-    right: 290px;
-}
-
-.left {
-    right: 570px;
 }
 
 .bottom-row>p {
