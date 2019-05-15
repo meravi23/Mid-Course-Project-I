@@ -21,7 +21,7 @@ footer {
 }
 
 header {
-    height: 110px;
+    height: 105px;
 }
 
 .search-box {
@@ -33,17 +33,19 @@ header {
     border: 0;
 }
 
-
-/* .logo {
+.logo {
     position: absolute;
-    top: 0;
-    left: 900px;
-} */
+    top: -40px;
+    right: -80px;
+}
 
 .navbar {
     position: absolute;
     top: 75px;
     z-index: 2;
+    width: 900px;
+    justify-content: space-between;
+    padding-right: 50px;
 }
 
 #icon {
@@ -129,31 +131,40 @@ nav a {
 }
 
 hr {
-    color: #aaa;
+    color: #FBFBFB;
     margin-top: -5px;
 }
 
+main>.container {
+    position: relative;
+}
+
 .mid {
+    position: absolute;
+    top: 0;
+    right: 100px;
     width: 440px;
     height: 426px;
-    margin: 5px 50px 5px 50px;
+    margin: 5px 0px 5px 50px;
 }
 
 .top-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
     font-size: 12px;
     height: 100px;
     width: 440px;
-    margin-right: 140px;
-    padding-top: 50px;
     display: inline-block;
     position: relative;
 }
 
-main nav {
+.right-nav {
     width: 120px;
     height: 36px;
     background-color: #EFEFEF;
     padding-right: 10px;
+    margin-top: 35px;
 }
 
 form,
@@ -163,19 +174,18 @@ form,
 }
 
 main form {
-    position: relative;
-    float: left;
     width: 347px;
     height: 332px;
     background-color: #EFEFEF;
     padding-right: 50px;
     padding-left: 10px;
+    margin-right: 50px;
 }
 
 main .left {
     position: absolute;
-    top: 0;
-    right: 400px;
+    top: 50px;
+    right: 500px;
     width: 292px;
     height: 500px;
     z-index: 1;
@@ -187,7 +197,7 @@ main .left {
     width: 290px;
     background-color: #EFEFEF;
     border-top-right-radius: 20px;
-    padding: 20px;
+    padding: 5px 20px;
 }
 
 .top {
