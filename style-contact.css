@@ -89,6 +89,23 @@ header a:hover, .dropdown:hover {
 
 /**************** main ****************/
 
+h4 {
+color: #005CA0;
+}
+
+strong, p {
+    color: #807d7d;
+}
+
+strong {
+    font-size: 14px;
+}
+
+p, a, span {
+    font-size: 13px;
+    margin-top: 0;
+}
+
 main>.flex {
     display: flex;
     margin-top: 100px;
@@ -135,6 +152,12 @@ main left {
 
 .top {
     margin-bottom: 50px;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /************** footer ****************/
