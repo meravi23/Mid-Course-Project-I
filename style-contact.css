@@ -14,8 +14,7 @@ body {
     margin: auto;
 }
 
-header,
-footer {
+header, footer {
     background-color: #909090;
     width: 100%;
 }
@@ -88,11 +87,9 @@ header a {
     position: relative;
 }
 
-a:hover,
-.dropdown:hover {
+a:hover, .dropdown:hover {
     color: #2733db;
     text-decoration: underline;
-    
 }
 
 .dropdown-content {
@@ -112,7 +109,6 @@ a:hover,
     display: block;
 }
 
-
 /**************** main ****************/
 
 h4 {
@@ -120,23 +116,15 @@ h4 {
     margin: 5px;
 }
 
-strong,
-p,
-label,
-a,
-span,
-h3 {
+strong, p, label, a, span, h3 {
     color: #807d7d;
 }
 
 strong {
-    font-size: 14px;
+    font-size: 13px;
 }
 
-p,
-a,
-span,
-label {
+p, a, span, label {
     font-size: 13px;
     margin-top: 0;
 }
@@ -182,15 +170,13 @@ main>.container {
     margin-top: 35px;
 }
 
-form,
-.top,
-.bottom {
+form, .top, .bottom {
     border-top-right-radius: 20px;
 }
 
 main form {
-    width: 347px;
-    height: 332px;
+    width: 385px;
+    height: 357px;
     background-color: #EFEFEF;
     padding-right: 50px;
     padding-left: 10px;
@@ -206,8 +192,7 @@ main .left {
     z-index: 1;
 }
 
-.top,
-.bottom {
+.top, .bottom {
     height: 175px;
     width: 290px;
     background-color: #EFEFEF;
@@ -225,25 +210,45 @@ main .left {
     display: table;
 }
 
+.form-head {
+    margin-right: -20px;
+}
+
+.fields {
+    margin-right: 40px;
+    position: relative;
+}
+
 .row>label {
     float: right;
     width: 75px;
 }
 
 .row>input {
-    float: right;
     width: 160px;
     padding: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .row>textarea {
-    float: right;
-    width: 235px;
+    width: 240px;
     height: 100px;
     padding: 3px;
     border: 1px solid #808992;
+    color: #808992;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    position: absolute;
+    bottom: -25px;
+    left: 43px;
+    background-color: #00539A;
+    border-top-right-radius: 10px;
+    color: white;
+}
 
 /************** footer ****************/
 
