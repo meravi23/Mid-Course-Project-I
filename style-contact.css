@@ -275,10 +275,6 @@ button:hover {
     display: none;
 }
 
-input[type="text"]:invalid~.rqrd {
-    display: initial;
-}
-
 
 /************** footer ****************/
 
