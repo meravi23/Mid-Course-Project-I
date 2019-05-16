@@ -14,7 +14,8 @@ body {
     margin: auto;
 }
 
-header, footer {
+header,
+footer {
     background-color: #909090;
     width: 100%;
 }
@@ -87,7 +88,8 @@ header a {
     position: relative;
 }
 
-a:hover, .dropdown:hover {
+a:hover,
+.dropdown:hover {
     color: #2733db;
     text-decoration: underline;
 }
@@ -109,6 +111,7 @@ a:hover, .dropdown:hover {
     display: block;
 }
 
+
 /**************** main ****************/
 
 h4 {
@@ -116,7 +119,12 @@ h4 {
     margin: 5px;
 }
 
-strong, p, label, a, span, h3 {
+strong,
+p,
+label,
+a,
+span,
+h3 {
     color: #807d7d;
 }
 
@@ -124,7 +132,10 @@ strong {
     font-size: 13px;
 }
 
-p, a, span, label {
+p,
+a,
+span,
+label {
     font-size: 13px;
     margin-top: 0;
 }
@@ -170,7 +181,9 @@ main>.container {
     margin-top: 35px;
 }
 
-form, .top, .bottom {
+form,
+.top,
+.bottom {
     border-top-right-radius: 20px;
 }
 
@@ -192,7 +205,8 @@ main .left {
     z-index: 1;
 }
 
-.top, .bottom {
+.top,
+.bottom {
     height: 175px;
     width: 290px;
     background-color: #EFEFEF;
@@ -246,9 +260,16 @@ button {
     bottom: -25px;
     left: 43px;
     background-color: #00539A;
-    border-top-right-radius: 10px;
-    color: white;
+    border-top-right-radius: 5px;
+    color: #fff;
+    padding: 2px 8px 0px 8px;
 }
+
+button:hover {
+    background-color: #F8B713;
+    color: #807d7d;
+}
+
 
 /************** footer ****************/
 
