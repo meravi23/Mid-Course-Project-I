@@ -272,10 +272,13 @@ button:hover {
 
 .rqrd {
     color: red;
-    display: none;
+    display: initial;
+    position: absolute;
+    top: -5px;
+    right: 10px;
 }
 
-
+.rqrd
 /************** footer ****************/
 
 .footer-container {
