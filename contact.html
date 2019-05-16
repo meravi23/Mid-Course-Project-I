@@ -147,54 +147,59 @@
                             <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
                         </div>
                         <div class="fields">
-                            <div class="row required">
+                            <div class="row">
                                 <label for="fname">* שם פרטי</label>
                                 <input type="text" id="fname" required />
+                                <span class="rqrd"><br>שדה חובה</span>
                             </div>
-                            <div class="row required">
+                            <div class="row">
                                 <label for="lname">* שם משפחה</label>
                                 <input type="text" id="lname" required />
+                                <span class="rqrd"><br>שדה חובה</span>
                             </div>
-                            <div class="row required">
+                            <div class="row">
                                 <label for="phone">* טלפון</label>
-                                <input type="type" id="phone" required />
-                                <div class="row required">
-                                    <label for="email">* E-mail</label>
-                                    <input type="email" required />
-                                </div>
-                                <div class="row">
-                                    <textarea rows="3" cols="20">תוכן הפנייה</textarea>
-                                </div>
+                                <input type="text" id="phone" required />
+                                <span class="rqrd"><br>שדה חובה</span>
                             </div>
-                            <button>שלח</button>
+                            <div class="row">
+                                <label for="email">* E-mail</label>
+                                <input type="email" required />
+                                <span class="rqrd"><br>שדה חובה</span>
+                            </div>
+                            <div class="row">
+                                <textarea rows="3" cols="20">תוכן הפנייה</textarea>
+                            </div>
+                        </div>
+                        <button onclick="displayError()">שלח</button>
                     </form>
+                </div>
+                <div class="left row">
+                    <div class="top">
+                        <h4>פרטי יצירת קשר</h4>
+                        <hr>
+                        <strong>פז חברת נפט בע"מ</strong>
+                        <p>יורו פארק, בניין הולנד
+                            <br> קיבוץ יקום 60972
+                            <br> טל. שירות לקוחות 1-800-774-774
+                            <br> פקס.09-8641714
+                        </p>
                     </div>
-                    <div class="left row">
-                        <div class="top">
-                            <h4>פרטי יצירת קשר</h4>
-                            <hr>
-                            <strong>פז חברת נפט בע"מ</strong>
-                            <p>יורו פארק, בניין הולנד
-                                <br> קיבוץ יקום 60972
-                                <br> טל. שירות לקוחות 1-800-774-774
-                                <br> פקס.09-8641714
-                            </p>
-                        </div>
 
-                        <div class="bottom">
-                            <h4>עוד בפז</h4>
-                            <hr>
-                            <strong>ליצירת קשר עם דוברות פז</strong>
-                            <br>
-                            <a href="#">לחצו כאן&gt&gt</a>
-                            <br>
-                            <strong>רוצים לעבוד בפז?</strong>
-                            <br>
-                            <a href="#">לחצו כאן&gt&gt</a>
-                        </div>
+                    <div class="bottom">
+                        <h4>עוד בפז</h4>
+                        <hr>
+                        <strong>ליצירת קשר עם דוברות פז</strong>
+                        <br>
+                        <a href="#">לחצו כאן&gt&gt</a>
+                        <br>
+                        <strong>רוצים לעבוד בפז?</strong>
+                        <br>
+                        <a href="#">לחצו כאן&gt&gt</a>
                     </div>
                 </div>
             </div>
+        </div>
     </main>
 
     <!----------------------------  footer ----------------------->

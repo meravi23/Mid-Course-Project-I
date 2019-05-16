@@ -270,6 +270,15 @@ button:hover {
     color: #807d7d;
 }
 
+.rqrd {
+    color: red;
+    display: none;
+}
+
+input[type="text"]:invalid~.rqrd {
+    display: initial;
+}
+
 
 /************** footer ****************/
 
