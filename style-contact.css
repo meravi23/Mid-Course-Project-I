@@ -242,6 +242,15 @@ main .left {
     margin-bottom: 50px;
 }
 
+.bottom a {
+    color: blue;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
 .row {
     content: "";
     clear: both;
