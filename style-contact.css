@@ -24,6 +24,8 @@ header {
     height: 105px;
 }
 
+/**************** search box ****************/
+
 .search-box>.search-button {
     position: absolute;
     top: 19px;
@@ -47,6 +49,8 @@ header {
 .english a {
     font-size: 12px;
 }
+
+/***************** navigation bar *****************/
 
 .logo {
     position: absolute;
@@ -173,13 +177,33 @@ main>.container {
     position: relative;
 }
 
+/******* right contact link *****/
+
 .right-nav {
     width: 120px;
     height: 36px;
-    background-color: #EFEFEF;
     padding-right: 10px;
+    padding-top: 7px;
     margin-top: 35px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    background-image: linear-gradient(#fff, #fff, #f0ebeb, #e2e2e2, #c4c2c2);
 }
+
+
+.arrow-left {
+    position: absolute;
+    top: 0;
+    right: -130px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #005CA0; 
+  }
+
+
+/************** form *************/
 
 form,
 .top,
@@ -310,9 +334,9 @@ footer span {
     color: white;
 }
 
-.hesder {
+/* .hesder {
     color: red;
-}
+} */
 
 footer nav {
     position: relative;
