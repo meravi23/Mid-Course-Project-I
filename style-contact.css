@@ -38,6 +38,9 @@ header {
     left: 20px;
     border-top-right-radius: 5px;
     border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 140px;
 }
 
 .english {
@@ -209,6 +212,8 @@ form,
 .top,
 .bottom {
     border-top-right-radius: 20px;
+    background-image: linear-gradient(#fff, #fff, #efefef);
+
 }
 
 main form {
@@ -235,7 +240,7 @@ main .left {
     width: 290px;
     background-color: #EFEFEF;
     border-top-right-radius: 20px;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .top {
