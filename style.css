@@ -56,7 +56,6 @@ header {
 
 /***************** navigation bar *****************/
 
-
 .logo {
     position: absolute;
     top: -40px;
@@ -69,13 +68,12 @@ header {
     z-index: 2;
     width: 900px;
     justify-content: space-between;
-    padding-right: 120px;
+    padding-right: 130px;
 }
 
 #icon {
-    width: 30px;
-    height: 30px;
-    margin-top: 3px;
+    width: 20px;
+    height: 20px;
 }
 
 .flex {
@@ -217,13 +215,13 @@ a:hover, .dropdown:hover {
     background-color: #ddd;
 }
 
-.bottom-row>p {
+.bottom-row p {
     font-weight: bold;
     font-size: 14px;
     text-align: right;
 }
 
-.bottom-row>hr {
+.bottom-row hr {
     color: #aaa;
     margin-top: -5px;
 }
@@ -233,7 +231,7 @@ a:hover, .dropdown:hover {
 }
 
 .slides {
-    visibility: hidden;
+    display: none;
 }
 
 #map {
@@ -245,19 +243,15 @@ a:hover, .dropdown:hover {
     font-size: 12px;
 }
 
-.bottom-row>.a-details {
+.bottom-row .a-details {
     text-align: left;
-}
-
-.bottom-row>a-areas {
-    text-align: right;
 }
 
 .map-div {
     position: relative;
 }
 
-.a-areas {
+.links-areas {
     position: absolute;
     top: 35px;
     right: 20;

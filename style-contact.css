@@ -67,13 +67,12 @@ header {
     z-index: 2;
     width: 900px;
     justify-content: space-between;
-    padding-right: 120px;
+    padding-right: 130px;
 }
 
 #icon {
-    width: 30px;
-    height: 30px;
-    margin-top: 3px;
+    width: 20px;
+    height: 20px;
 }
 
 .flex {
@@ -122,7 +121,6 @@ a:hover, .dropdown:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    
 }
 
 /**************** main ****************/
