@@ -58,7 +58,7 @@ header {
 .logo {
     position: absolute;
     top: -40px;
-    right: -80px;
+    right: -10px;
 }
 
 .navbar {
@@ -67,11 +67,13 @@ header {
     z-index: 2;
     width: 900px;
     justify-content: space-between;
+    padding-right: 120px;
 }
 
 #icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
 }
 
 .flex {
@@ -103,6 +105,7 @@ a:hover, .dropdown:hover {
 .dropdown-content {
     display: none;
     position: absolute;
+    /* top: 30px; */
     background-color: #909090;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -113,8 +116,13 @@ a:hover, .dropdown:hover {
     display: block;
 }
 
+.dropdown-content a:hover {
+    background-color: #cecece;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
 /**************** main ****************/
