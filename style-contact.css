@@ -14,8 +14,7 @@ body {
     margin: auto;
 }
 
-header,
-footer {
+header, footer {
     background-color: #909090;
     width: 100%;
 }
@@ -41,6 +40,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     width: 140px;
+    line-height: 16px;
 }
 
 .english {
@@ -95,8 +95,7 @@ header a {
     position: relative;
 }
 
-a:hover,
-.dropdown:hover {
+a:hover, .dropdown:hover {
     color: #2733db;
     text-decoration: underline;
 }
@@ -118,7 +117,6 @@ a:hover,
     display: block;
 }
 
-
 /**************** main ****************/
 
 h4 {
@@ -126,12 +124,7 @@ h4 {
     margin: 5px;
 }
 
-strong,
-p,
-label,
-a,
-span,
-h3 {
+strong, p, label, a, span, h3 {
     color: #807d7d;
 }
 
@@ -139,10 +132,7 @@ strong {
     font-size: 13px;
 }
 
-p,
-a,
-span,
-label {
+p, a, span, label {
     font-size: 13px;
     margin-top: 0;
 }
@@ -152,8 +142,8 @@ nav a {
 }
 
 hr {
-    color: #FBFBFB;
-    margin-top: -5px;
+    border: 1px solid #f5f2f2;
+    margin-top: -1px;
 }
 
 main>.container {
@@ -170,14 +160,17 @@ main>.container {
 }
 
 .top-nav {
-    position: absolute;
-    top: 0;
-    right: 0;
+    margin-top: -10px;
     font-size: 12px;
-    height: 100px;
+    height: 60px;
     width: 440px;
     display: inline-block;
     position: relative;
+    border-bottom: 1px solid #cccccc;
+}
+
+.top-nav h3 {
+    margin-top: 25px;
 }
 
 /******* right contact link *****/
@@ -193,33 +186,33 @@ main>.container {
     background-image: linear-gradient(#fff, #fff, #f0ebeb, #e2e2e2, #c4c2c2);
 }
 
-
 .arrow-left {
     position: absolute;
-    top: 0;
-    right: -130px;
-    width: 0; 
-    height: 0; 
+    top: 8px;
+    right: 0px;
+    width: 0;
+    height: 0;
     border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    border-right:10px solid #005CA0; 
-  }
-
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #005CA0;
+}
 
 /************** form *************/
 
-form,
-.top,
-.bottom {
+form, .top, .bottom {
     border-top-right-radius: 20px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
     background-image: linear-gradient(#fff, #fff, #efefef);
-
 }
 
 main form {
+    position: absolute;
+    top: 62px;
+    left: 57px;
     width: 385px;
     height: 357px;
-    background-color: #EFEFEF;
     padding-right: 50px;
     padding-left: 10px;
     margin-right: 50px;
@@ -234,17 +227,14 @@ main .left {
     z-index: 1;
 }
 
-.top,
-.bottom {
+.top, .bottom {
     height: 175px;
     width: 290px;
-    background-color: #EFEFEF;
-    border-top-right-radius: 20px;
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 
 .top {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .bottom a {
@@ -295,16 +285,16 @@ main .left {
 
 button {
     position: absolute;
-    bottom: -25px;
-    left: 43px;
-    background-color: #00539A;
+    bottom: 20px;
+    left: 52px;
+    background-image: linear-gradient(#a0bad1, #00539A);
     border-top-right-radius: 5px;
     color: #fff;
     padding: 2px 8px 0px 8px;
 }
 
 button:hover {
-    background-color: #F8B713;
+    background-image: linear-gradient(#f3e144, #F8B713);
     color: #807d7d;
 }
 
@@ -343,6 +333,7 @@ button:hover {
 /* input:invalid ~ .rqrd {
     display: initial;
 } */
+
 /************** footer ****************/
 
 .footer-container {
