@@ -6,6 +6,7 @@ body {
     direction: rtl;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -14,8 +15,8 @@ body {
     margin: auto;
 }
 
-header, footer {
-    background-image: linear-gradient(#909090, #a2a2a2);
+header {
+    background-image: linear-gradient(#909090 80%, #e0dfdf);
     width: 100%;
 }
 
@@ -264,8 +265,10 @@ footer {
     position: fixed;
     bottom: 0;
     right: 0;
-    height: 40px;
+    height: 38px;
     padding-top: 5px;
+    background-image: linear-gradient(#e0dfdf 3%, #909090);
+    width: 100%;
 }
 
 footer nav a {
