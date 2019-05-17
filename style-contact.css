@@ -303,15 +303,41 @@ button:hover {
     color: #807d7d;
 }
 
-.rqrd {
+.rq-fname {
     color: red;
-    display: initial;
+    display: none;
     position: absolute;
     top: -5px;
     right: 10px;
 }
 
-.rqrd
+.rq-lname {
+    color: red;
+    display: none;
+    position: absolute;
+    top: 24px;
+    right: 10px;
+}
+
+.rq-tel {
+    color: red;
+    display: none;
+    position: absolute;
+    top: 53px;
+    right: 10px;
+}
+
+.rq-email {
+    color: red;
+    display: none;
+    position: absolute;
+    top: 82px;
+    right: 10px;
+}
+
+/* input:invalid ~ .rqrd {
+    display: initial;
+} */
 /************** footer ****************/
 
 .footer-container {

@@ -1,3 +1,5 @@
 function displayError() {
-    document.getElementsByClassName("rqrd").style.display = "inline";
+    // alert("hi");
+    document.getElementsByClassName("rqrd").style.display = "initial";
+    
 }

@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style-contact.css">
-    <script src="" async defer></script>
+    <script src="contact-script.js" async defer></script>
 </head>
 
 <body>
@@ -148,7 +148,7 @@
 
                 <div class="flex">
 
-                    <form>
+                    <form novalidate>
                         <div class="form-head">
                             <h4>צור קשר</h4>
                             <strong>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם:</strong>
@@ -159,22 +159,22 @@
                             <div class="row">
                                 <label for="fname">* שם פרטי</label>
                                 <input type="text" id="fname" required />
-                                <span class="rqrd"><br>שדה חובה</span>
+                                <span class="rqrd rq-fname"><br>שדה חובה</span>
                             </div>
                             <div class="row">
                                 <label for="lname">* שם משפחה</label>
                                 <input type="text" id="lname" required />
-                                <span class="rqrd"><br>שדה חובה</span>
+                                <span class="rqrd rq-lname"><br>שדה חובה</span>
                             </div>
                             <div class="row">
                                 <label for="phone">* טלפון</label>
                                 <input type="text" id="phone" required />
-                                <span class="rqrd"><br>שדה חובה</span>
+                                <span class="rqrd rq-tel"><br>שדה חובה</span>
                             </div>
                             <div class="row">
                                 <label for="email">* E-mail</label>
                                 <input type="email" required />
-                                <span class="rqrd"><br>שדה חובה</span>
+                                <span class="rqrd rq-email"><br>שדה חובה</span>
                             </div>
                             <div class="row">
                                 <textarea rows="3" cols="20">תוכן הפנייה</textarea>
