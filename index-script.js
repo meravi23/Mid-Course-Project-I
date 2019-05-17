@@ -13,3 +13,12 @@ function carousel() {
     x[slideIndex - 1].style.display = "block";
     setTimeout(carousel, 5000); // Change image every 5 seconds
 }
+
+function hover(img) {
+    img.setAttribute("src", "images/read_more_blue.png");
+}
+
+function unhover(img) {
+    img.setAttribute("src", "images/read_more_yellow.png");
+}
+

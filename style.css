@@ -188,20 +188,16 @@ a:hover, .dropdown:hover {
 .read {
     margin-left: 10px;
     text-align: left;
-    background: url("images/read_more_white.png") no-repeat;
 }
 
 .read span {
     padding-right: 15px;
 }
 
+/* 
 .read a:hover {
-    color: #2733db;
-}
-
-.read:hover {
-    background: url("images/read-more-blue.png") no-repeat;
-}
+    color: #005A9B;
+} */
 
 /******* bottom row ********/
 
@@ -245,6 +241,19 @@ a:hover, .dropdown:hover {
 
 .bottom-row .a-details {
     text-align: left;
+    color: rgb(87, 87, 87);
+}
+
+.bottom-row a:visited {
+    color: rgb(87, 87, 87);
+}
+
+.bottom-row a:hover {
+    color: #005A9B;
+}
+
+.bottom-row a:hover img {
+    src:
 }
 
 .map-div {
