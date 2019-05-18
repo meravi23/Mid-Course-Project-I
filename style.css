@@ -21,7 +21,7 @@ header {
 }
 
 header {
-    height: 110px;
+    height: 105px;
 }
 
 /**************** search box ****************/
@@ -73,7 +73,7 @@ header {
 
 #icon {
     width: 20px;
-    height: 20px;
+    height: 15px;
 }
 
 .flex {
@@ -84,13 +84,8 @@ header a {
     font-size: 14px;
     font-weight: bold;
     color: white;
-    text-align: right;
     padding: 5px 5px;
     text-decoration: none;
-}
-
-.dropdown-content a {
-    border-bottom: 1px solid rgb(179, 179, 179);
 }
 
 .dropdown {
@@ -98,7 +93,7 @@ header a {
 }
 
 a:hover, .dropdown:hover {
-    color: #2733db;
+    color: #005A9B;
     text-decoration: underline;
 }
 
@@ -106,13 +101,18 @@ a:hover, .dropdown:hover {
     display: none;
     position: absolute;
     background-color: #909090;
-    min-width: 120px;
+    min-width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
+/* .dropdown-content:first-child {
+    background-image: linear-gradient(#e0dfdf 80%, #909090);
+} */
+
 .dropdown-content a {
     display: block;
+    border-bottom: 1px solid rgb(179, 179, 179);
 }
 
 .dropdown-content a:hover {
@@ -194,10 +194,15 @@ a:hover, .dropdown:hover {
     padding-right: 15px;
 }
 
-/* 
+.blue {
+    position: absolute;
+    top: 83px;
+    left: 0px;
+}
+
 .read a:hover {
     color: #005A9B;
-} */
+}
 
 /******* bottom row ********/
 
@@ -250,10 +255,6 @@ a:hover, .dropdown:hover {
 
 .bottom-row a:hover {
     color: #005A9B;
-}
-
-.bottom-row a:hover img {
-    src:
 }
 
 .map-div {

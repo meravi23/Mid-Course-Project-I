@@ -14,11 +14,11 @@ function carousel() {
     setTimeout(carousel, 5000); // Change image every 5 seconds
 }
 
-function hover(img) {
-    img.setAttribute("src", "images/read_more_blue.png");
-}
+// function hover(this) {
+//     documnet.getElementsByClassName("blue").setAttribute("src", "images/read_more_blue.png");
+// }
 
-function unhover(img) {
-    img.setAttribute("src", "images/read_more_yellow.png");
-}
+// function unhover(element) {
+//     element.setAttribute("src", "images/read_more_yellow.png");
+// }
 
