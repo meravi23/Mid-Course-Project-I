@@ -322,10 +322,6 @@ a:hover, .dropdown:hover {
 
 /************** footer ****************/
 
-.footer-container {
-    position: relative;
-}
-
 footer {
     position: fixed;
     bottom: 0;
@@ -334,6 +330,16 @@ footer {
     padding-top: 5px;
     background-image: linear-gradient(#e0dfdf 3%, #909090);
     width: 100%;
+}
+
+footer nav {
+    padding-right: 25px;
+}
+
+.fb-icon {
+    position: absolute;
+    bottom: -2;
+    right: 0px;
 }
 
 footer nav a {
@@ -355,14 +361,4 @@ footer span {
 
 .hesder {
     color: red;
-}
-
-footer nav {
-    position: relative;
-}
-
-.fb-icon {
-    position: absolute;
-    bottom: -2;
-    right: -25px;
 }

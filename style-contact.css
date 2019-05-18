@@ -332,16 +332,22 @@ button:hover {
 
 /************** footer ****************/
 
-.footer-container {
-    position: relative;
-}
-
 footer {
     position: fixed;
     bottom: 0;
     right: 0;
     height: 40px;
     padding-top: 5px;
+}
+
+footer nav {
+    padding-right: 25px;
+}
+
+.fb-icon {
+    position: absolute;
+    bottom: -2;
+    right: 0;
 }
 
 footer nav a {
@@ -364,13 +370,3 @@ footer span {
 /* .hesder {
     color: red;
 } */
-
-footer nav {
-    position: relative;
-}
-
-.fb-icon {
-    position: absolute;
-    bottom: -2;
-    right: -25px;
-}
