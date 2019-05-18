@@ -100,10 +100,10 @@ a:hover, .dropdown:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    /* top: 29px; */
     background-color: #909090;
     min-width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
@@ -117,11 +117,6 @@ a:hover, .dropdown:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.dropdown-content:first-child {
-    background-color: none;
-    background-image: linear-gradient(#fff, #fff, #f0ebeb, #e2e2e2, #c4c2c2);
 }
 
 /**************** main ****************/
@@ -246,6 +241,7 @@ main .left {
 }
 
 .bottom a:hover {
+    color: #005CA0;
     text-decoration: underline;
 }
 
@@ -301,39 +297,31 @@ button:hover {
     color: #807d7d;
 }
 
-.rq-fname {
+.rqrd {
     color: red;
     display: none;
+    /* visibility: hidden; */
     position: absolute;
-    top: -5px;
     right: 10px;
+}
+
+.rq-fname {
+    top: -5px;
 }
 
 .rq-lname {
-    color: red;
-    display: none;
-    position: absolute;
     top: 24px;
-    right: 10px;
 }
 
 .rq-tel {
-    color: red;
-    display: none;
-    position: absolute;
     top: 53px;
-    right: 10px;
 }
 
 .rq-email {
-    color: red;
-    display: none;
-    position: absolute;
     top: 82px;
-    right: 10px;
 }
 
-/* input:invalid ~ .rqrd {
+/* input[type="text"]:invalid ~ .rqrd {
     display: initial;
 } */
 

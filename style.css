@@ -103,7 +103,7 @@ a:hover, .dropdown:hover {
     background-color: #909090;
     min-width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 2;
 }
 
 /* .dropdown-content:first-child {
@@ -121,7 +121,6 @@ a:hover, .dropdown:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    /* top: 29px; */
 }
 
 /**************** main ****************/
