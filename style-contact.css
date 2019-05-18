@@ -235,6 +235,10 @@ main .left {
     margin-bottom: 20px;
 }
 
+.bottom {
+    line-height: 14px;
+}
+
 .bottom a {
     color: blue;
     text-decoration: none;
@@ -284,6 +288,7 @@ main .left {
 
 button {
     position: absolute;
+    font-size: 14px;
     bottom: 20px;
     left: 52px;
     background-image: linear-gradient(#a0bad1, #00539A);
@@ -349,7 +354,7 @@ footer nav a {
 }
 
 footer nav a:hover {
-    color: #4D63A0;
+    color: #00539A;
 }
 
 footer span {

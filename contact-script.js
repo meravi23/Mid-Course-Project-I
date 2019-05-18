@@ -20,3 +20,13 @@
 //         eml.setCustomValidity("");
 //     }
 // });
+
+function changeImgOn() {
+    var image = document.getElementById("icon");
+    image.src = "images/menu_home_blue.png";
+}
+
+function changeImgBack() {
+    var image = document.getElementById("icon");
+    image.src = "images/menu_home_black.png";
+}
