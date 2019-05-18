@@ -121,6 +121,7 @@ a:hover, .dropdown:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    top: 29px;
 }
 
 /**************** main ****************/
@@ -197,12 +198,22 @@ a:hover, .dropdown:hover {
 .blue {
     position: absolute;
     top: 83px;
-    left: 0px;
+    left: 10px;
 }
 
 .read a:hover {
     color: #005A9B;
 }
+
+.hover-off, .read:hover .hover-on {
+    display: block;
+} 
+
+.hover-on, .read:hover .hover-off {
+    display: none;
+}
+
+
 
 /******* bottom row ********/
 
@@ -213,7 +224,10 @@ a:hover, .dropdown:hover {
     margin: 30px 5px 30px 5px;
     padding: 0px 20px;
     border-radius: 0px 20px 0px 0px;
-    background-color: #ddd;
+    background-image: linear-gradient(#fff, #fff, #efefef);
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
 }
 
 .bottom-row p {
@@ -225,6 +239,7 @@ a:hover, .dropdown:hover {
 .bottom-row hr {
     color: #aaa;
     margin-top: -5px;
+    border: 1px solid #f5f2f2;
 }
 
 .bottom-row>img {
