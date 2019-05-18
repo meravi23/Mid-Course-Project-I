@@ -195,7 +195,7 @@ a:hover, .dropdown:hover {
     padding-right: 15px;
 }
 
-.blue {
+.top-row-img .text img {
     position: absolute;
     top: 83px;
     left: 10px;
@@ -212,8 +212,6 @@ a:hover, .dropdown:hover {
 .hover-on, .read:hover .hover-off {
     display: none;
 }
-
-
 
 /******* bottom row ********/
 
@@ -262,6 +260,7 @@ a:hover, .dropdown:hover {
 .bottom-row .a-details {
     text-align: left;
     color: rgb(87, 87, 87);
+    position: relative;
 }
 
 .bottom-row a:visited {
@@ -287,8 +286,14 @@ a:hover, .dropdown:hover {
     color: rgb(87, 87, 87);
 }
 
-.bottom-row span {
-    padding-right: 5px;
+/* .bottom-row span {
+    padding-right: 25px;
+} */
+
+.bottom-row .hover-off, .bottom-row .hover-on {
+    position: absolute;
+    top: 24px;
+    right: 227px;
 }
 
 /************** footer ****************/
