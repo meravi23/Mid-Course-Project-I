@@ -186,13 +186,13 @@ main>.container {
 
 .arrow-left {
     position: absolute;
-    top: 8px;
+    top: 9px;
     right: 0px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
+    width: 5px;
+    height: 5px;
+    /* border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid #005CA0;
+    border-right: 10px solid #005CA0; */
 }
 
 /************** form *************/
