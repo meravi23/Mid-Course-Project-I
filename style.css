@@ -121,7 +121,7 @@ a:hover, .dropdown:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    top: 29px;
+    /* top: 29px; */
 }
 
 /**************** main ****************/
@@ -207,7 +207,7 @@ a:hover, .dropdown:hover {
 
 .hover-off, .read:hover .hover-on {
     display: block;
-} 
+}
 
 .hover-on, .read:hover .hover-off {
     display: none;
@@ -275,6 +275,16 @@ a:hover, .dropdown:hover {
     position: relative;
 }
 
+.bottom-row p {
+    color: rgb(87, 87, 87);
+}
+
+.a-details .hover-off, .a-details .hover-on {
+    position: absolute;
+    top: 24px;
+    right: 227px;
+}
+
 .links-areas {
     position: absolute;
     top: 35px;
@@ -282,18 +292,33 @@ a:hover, .dropdown:hover {
     line-height: 20px;
 }
 
-.bottom-row p {
-    color: rgb(87, 87, 87);
+.links-areas .north, .links-areas .center, .links-areas .south {
+    position: absolute;
+    right: 38px;
 }
 
-/* .bottom-row span {
-    padding-right: 25px;
-} */
+.links-areas .north {
+    top: 27px;
+}
 
-.bottom-row .hover-off, .bottom-row .hover-on {
-    position: absolute;
-    top: 24px;
-    right: 227px;
+.links-areas .center {
+    top: 48px;
+}
+
+.links-areas .south {
+    top: 69px;
+}
+
+.hover-off, .a-north:hover .hover-on,
+.hover-off, .a-center:hover .hover-on,
+.hover-off, .a-south:hover .hover-on {
+    display: block;
+}
+
+.hover-on, .a-north:hover .hover-off,
+.hover-on, .a-center:hover .hover-off,
+.hover-on, .a-south:hover .hover-off {
+    display: none;
 }
 
 /************** footer ****************/
